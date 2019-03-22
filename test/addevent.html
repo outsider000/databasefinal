@@ -1,0 +1,30 @@
+<html>
+
+	<head>
+
+		<title>
+			Addevent
+		</title>
+	</head>
+	<body>
+		Add new event:
+		<form name="Input" action="addevent.php" method="POST">
+			Name:<input type="text" name="Name"><br>
+			Time:
+				<input type="datetime-local" id="Time"
+				name="meeting-time" value="2018-06-12T19:30"
+				><br>
+			Location:<input type="text" name="Location"><br>
+			Coche:<input type="text" name="Coche"><br>
+			assistant_coche:<input type="text" name="assistant_coche"><br>
+			detail:<input type="text" name="detail"><br>
+			up_limit:<input type="text" name="up_limit"><br>
+			is_open:<select type="text" name="is_open">
+							  <option value=0>close</option>
+							  <option value=1>open</option>
+						</select><br>
+			<input type="submit" value="submit">
+		</form>
+			<a href=selectstudent.php>Back to home</a>
+	</body>
+</html>
